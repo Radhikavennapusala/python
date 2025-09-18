@@ -1,0 +1,8 @@
+pc=int(input("price of coffee:"))
+ps=int(input("price of one snack:"))
+nco=int(input("number of coffee ordered:"))
+nso=int(input("number of snack ordered:"))
+total=(pc*nco)+(ps*nso)
+total=total+(total*0.5)
+print("total bill including 5% service charge")
+print(total)
