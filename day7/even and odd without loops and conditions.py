@@ -1,0 +1,6 @@
+num=list(map(int,input("enter the numbers:").split))
+even=list(filter(lambda i:i%2==0,num))
+odd=list(filter(lambda i:i%2!=0,num))
+print(f"user entered  list:{num}")
+print(f"even list:{even}")
+print(f"odd list:{odd}")
